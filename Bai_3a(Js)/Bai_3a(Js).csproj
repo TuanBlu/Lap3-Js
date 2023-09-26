@@ -67,6 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bt1.aspx" />
+    <Content Include="bt2.aspx" />
+    <Content Include="bt3.aspx" />
+    <Content Include="bt4.aspx" />
+    <Content Include="bt5.aspx" />
+    <Content Include="bt6.aspx" />
     <Content Include="cau3a_1.aspx" />
     <Content Include="cau3a_2.aspx" />
     <Content Include="cau3a_3.aspx" />
@@ -74,6 +80,48 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bt1.aspx.cs">
+      <DependentUpon>bt1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bt1.aspx.designer.cs">
+      <DependentUpon>bt1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bt2.aspx.cs">
+      <DependentUpon>bt2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bt2.aspx.designer.cs">
+      <DependentUpon>bt2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bt3.aspx.cs">
+      <DependentUpon>bt3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bt3.aspx.designer.cs">
+      <DependentUpon>bt3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bt4.aspx.cs">
+      <DependentUpon>bt4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bt4.aspx.designer.cs">
+      <DependentUpon>bt4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bt5.aspx.cs">
+      <DependentUpon>bt5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bt5.aspx.designer.cs">
+      <DependentUpon>bt5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bt6.aspx.cs">
+      <DependentUpon>bt6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bt6.aspx.designer.cs">
+      <DependentUpon>bt6.aspx</DependentUpon>
+    </Compile>
     <Compile Include="cau3a_1.aspx.cs">
       <DependentUpon>cau3a_1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -111,7 +159,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
+    <Folder Include="Models\img\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
